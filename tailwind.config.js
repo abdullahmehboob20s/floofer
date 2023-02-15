@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       poppins: "'Poppins', sans-serif",
+      "open-sans": "'Open Sans', sans-serif",
       huglove: "'huglove', sans-serif",
       marsmelloe: "'marsmelloe', sans-serif",
     },
@@ -36,6 +37,9 @@ module.exports = {
       },
       spacing: {
         "header-height": "var(--header-height)",
+      },
+      boxShadow: {
+        button: "4px 4px 0px #FFFFFF",
       },
     },
   },
