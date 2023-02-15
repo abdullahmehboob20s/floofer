@@ -31,6 +31,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         header: "linear-gradient(180deg, #000000 0%, #4F4F4F 100%)",
+        "team-card":
+          "linear-gradient(180deg, #07FAFA 0%, #3CF5FF 0.01%, #B5FFFF 99.48%)",
       },
       borderWidth: {
         1: "1px",
@@ -40,6 +42,7 @@ module.exports = {
       },
       boxShadow: {
         button: "4px 4px 0px #FFFFFF",
+        "team-card": "inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
     },
   },
