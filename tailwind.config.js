@@ -21,6 +21,7 @@ module.exports = {
       blue: {
         link: "#05CAEB",
         text: "#355560",
+        sharp: "#0075FF",
       },
 
       purple: {
