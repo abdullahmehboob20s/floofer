@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "huglove";
+  src: url(../public/fonts/huglove/Huglove.ttf);
+}
+@font-face {
+  font-family: "marsmelloe";
+  src: url(../public/fonts/marsmelloe/Marsmelloe.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  * {
+    @apply font-poppins;
+  }
+
+  :root {
+    --header-height: 77.73px;
+  }
+
+  body,
+  html {
+    @apply bg-primary;
+  }
+}
+
+@layer components {
+  .container-wrapper {
+    @apply w-[90%] max-w-[1440px] mx-auto;
+  }
+
+  .divider-vertical {
+    @apply border-1 w-0;
+  }
+
+  .logo-shadow {
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  }
 }
