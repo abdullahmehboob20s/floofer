@@ -31,19 +31,19 @@ function Hero() {
 
       <img
         src="images/hero-blob.png"
-        className="absolute top-0 right-[0%] h-[120%] w-[44%] -z-10"
+        className="absolute top-0 right-[0%] h-[120%] w-[44%] -z-10 pointer-events-none select-none"
         alt=""
       />
 
       <img
         src="images/hero-dog.svg"
-        className="w-[44%] absolute top-1/2 right-4 -translate-y-1/2 z-[-1]"
+        className="w-[44%] absolute top-1/2 right-4 -translate-y-1/2 z-[-1] pointer-events-none select-none"
         alt=""
       />
 
       <img
         src="images/pet-foots-bg.svg"
-        className="absolute top-0 left-0 w-full h-full z-[-100] object-cover"
+        className="absolute top-0 left-0 w-full h-full z-[-100] object-cover pointer-events-none select-none"
         alt=""
       />
     </div>

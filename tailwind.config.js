@@ -16,6 +16,8 @@ module.exports = {
       "primary-2": "#FFE074",
       brown: "#994B1F",
 
+      "text-light": "#CBCBCB",
+
       blue: {
         link: "#05CAEB",
         text: "#355560",
@@ -33,6 +35,8 @@ module.exports = {
         header: "linear-gradient(180deg, #000000 0%, #4F4F4F 100%)",
         "team-card":
           "linear-gradient(180deg, #07FAFA 0%, #3CF5FF 0.01%, #B5FFFF 99.48%)",
+        footer:
+          "linear-gradient(180deg, rgba(56, 46, 46, 0.9) 0%, #000000 100%)",
       },
       borderWidth: {
         1: "1px",
