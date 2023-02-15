@@ -22,6 +22,8 @@ module.exports = {
         link: "#05CAEB",
         text: "#355560",
         sharp: "#0075FF",
+        sky: "#84FBFF",
+        dark: "#00316C",
       },
 
       purple: {
@@ -38,6 +40,8 @@ module.exports = {
           "linear-gradient(180deg, #07FAFA 0%, #3CF5FF 0.01%, #B5FFFF 99.48%)",
         footer:
           "linear-gradient(180deg, rgba(56, 46, 46, 0.9) 0%, #000000 100%)",
+        button:
+          "linear-gradient(180deg, #00F0FF 0%, rgba(14, 87, 196, 0.79) 100%)",
       },
       borderWidth: {
         1: "1px",
