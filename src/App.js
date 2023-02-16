@@ -15,8 +15,8 @@ function App() {
     <div>
       <Header />
       <Hero />
-      {/* <NFTBar />
-      <PreSale />
+      <NFTBar />
+      {/* <PreSale />
       <Products />
       <Whitepaper />
       <Tokenomics />

@@ -38,7 +38,7 @@ function Hero() {
 
       <img
         src="images/hero-dog.svg"
-        className="w-[96%] sm:w-[80%] max-w-[600px] lg:max-w-none mx-auto lg:w-[44%] lg:absolute lg:top-1/2 right-4 lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16"
+        className="w-[96%] sm:w-[80%] max-w-[600px] lg:max-w-none mx-auto lg:w-[44%] lg:absolute lg:top-1/2 right-4 lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16 lg:mt-0"
         alt=""
       />
 
