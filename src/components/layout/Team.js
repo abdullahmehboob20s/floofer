@@ -3,13 +3,13 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="py-20 bg-primary relative z-10">
+    <div className="py-12 lg:py-16 xl:py-20 bg-primary relative z-10">
       <div className="container-wrapper">
-        <h1 className="text-center font-huglove text-5xl font-semibold mb-20 titles-shadow">
+        <h1 className="text-center font-huglove text-3xl sm:text-4xl xl:text-5xl font-semibold mb-12 lg:mb-16 xl:mb-20 titles-shadow">
           FLooFER TEAM
         </h1>
 
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-10">
           <TeamCard img="images/dog-1.png" />
           <TeamCard img="images/dog-2.png" />
           <TeamCard img="images/dog-3.png" />

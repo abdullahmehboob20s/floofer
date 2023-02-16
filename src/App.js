@@ -21,8 +21,8 @@ function App() {
       <Whitepaper />
       <Tokenomics />
       <HowToBuy />
-      {/* <Team />
-      <Footer /> */}
+      <Team />
+      {/* <Footer /> */}
     </div>
   );
 }
