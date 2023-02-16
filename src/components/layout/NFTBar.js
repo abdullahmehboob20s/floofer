@@ -13,7 +13,7 @@ const texts = [
 
 function NFTBar() {
   return (
-    <div className="">
+    <div className="rotate-[-3deg] relative z-[100] mt-[-50px] mb-[-50px]">
       <div className="text-white py-4 xl:py-6 flex items-center relative z-[200]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-full -z-10 border-b-[6px] border-white bg-header"></div>
 

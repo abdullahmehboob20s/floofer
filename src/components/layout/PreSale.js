@@ -19,10 +19,15 @@ const Card = ({ title, subtitle, className }) => {
 
 function PreSale() {
   return (
-    <div className="bg-blue-presale relative z-10">
+    <div
+      className="bg-blue-presale relative z-10"
+      style={{
+        clipPath: `polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 76px))`,
+      }}
+    >
       <Featured />
 
-      <div className="pt-8 lg:pt-16 pb-16 xl:pt-24 xl:pb-24">
+      <div className="pb-36 lg:pb-48 pt-8 lg:pt-16 xl:pt-24">
         <div className="container-wrapper">
           <main className="grid lg:grid-cols-2 items-center gap-12 sm:gap-16 lg:gap-20">
             <div>

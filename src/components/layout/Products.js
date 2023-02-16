@@ -3,7 +3,12 @@ import React from "react";
 
 function Products() {
   return (
-    <div className="py-12 sm:py-16 xl:py-20 relative z-10">
+    <div
+      className="pt-28 lg:pt-44 pb-16 sm:pb-20 xl:pb-28 relative z-10"
+      style={{
+        clipPath: "polygon(0 0, 100% calc(0% + 76px), 100% 100%, 0 100%)",
+      }}
+    >
       <div className="container-wrapper">
         <h1 className="text-center font-huglove text-4xl xl:text-6xl mb-10 sm:mb-16 xl:mb-20">
           PRoDUCTS

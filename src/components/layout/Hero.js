@@ -4,7 +4,7 @@ import React from "react";
 function Hero() {
   // min-h-[calc(100vh-var(--header-height))]
   return (
-    <div className="overflow-hidden py-10 md:py-12 lg:py-16 xl:py-24 bg-primary-2 flex flex-col items-center relative z-50">
+    <div className="overflow-hidden pt-10 md:pt-12 lg:pt-16 xl:pt-24 pb-24 lg:pb-44 bg-primary-2 flex flex-col items-center relative z-50">
       <div className="container-wrapper text-center lg:text-left">
         <div className="mb-5 md:mb-6 lg:mb-4">
           <h1 className="font-huglove mb-3 lg:mb-0 text-5xl md:text-6xl lg:text-8xl xl:text-9xl leading-[1] text-brown titles-shadow">

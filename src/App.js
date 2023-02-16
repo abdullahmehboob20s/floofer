@@ -19,12 +19,23 @@ function App() {
       <Hero />
       <NFTBar />
       <PreSale />
+
+      <div className="h-[60px] lg:h-[100px] mt-[-70px] lg:mt-[-100px] mb-[-60px] lg:mb-[-100px] w-full rotate-[3deg] relative z-[1000]">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[140%] h-full bg-black shadow-stripe"></div>
+      </div>
+
       <Products />
-      <Stripe />
+      <div className="mt-[-20px] mb-[-20px]">
+        <Stripe />
+      </div>
       <Whitepaper />
-      <Stripe borderBottom={true} />
+      <div className="mt-[-20px] mb-[-20px]">
+        <Stripe borderBottom={true} />
+      </div>
       <Roadmap />
-      <Stripe borderBottom={true} />
+      <div className="mt-[-20px] mb-[-20px]">
+        <Stripe borderBottom={true} />
+      </div>
       <Tokenomics />
       <HowToBuy />
       <Team />
