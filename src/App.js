@@ -17,8 +17,8 @@ function App() {
       <Hero />
       <NFTBar />
       <PreSale />
-      {/* <Products />
-      <Whitepaper />
+      <Products />
+      {/* <Whitepaper />
       <Tokenomics />
       <HowToBuy />
       <Team />

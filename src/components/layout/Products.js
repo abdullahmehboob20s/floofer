@@ -3,11 +3,13 @@ import React from "react";
 
 function Products() {
   return (
-    <div className="py-20 relative z-10">
+    <div className="py-12 sm:py-16 xl:py-20 relative z-10">
       <div className="container-wrapper">
-        <h1 className="text-center font-huglove text-6xl mb-20">PRoDUCTS</h1>
+        <h1 className="text-center font-huglove text-4xl xl:text-6xl mb-10 sm:mb-16 xl:mb-20">
+          PRoDUCTS
+        </h1>
 
-        <div className="grid grid-cols-2 gap-x-16 gap-y-14">
+        <div className="grid lg:grid-cols-2 gap-x-12 xl:gap-x-16 gap-y-10 xl:gap-y-14">
           <ProductCard
             title="The Love NFT"
             img="images/love-nft.png"
