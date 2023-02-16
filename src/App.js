@@ -22,7 +22,7 @@ function App() {
       <Tokenomics />
       <HowToBuy />
       <Team />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

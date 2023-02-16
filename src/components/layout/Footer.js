@@ -1,110 +1,98 @@
 import React from "react";
 
+const Title = ({ children, className }) => {
+  return (
+    <h1
+      className={`font-marsmelloe text-primary text-xl lg:text-2xl xl:text-4xl uppercase ${className}`}
+    >
+      {children}
+    </h1>
+  );
+};
+
+const Text = ({ Tag = "p", children, className, ...props }) => {
+  return (
+    <Tag
+      className={`font-marsmelloe text-sm lg:text-base xl:text-xl font-normal text-text-light ${className}`}
+      {...props}
+    >
+      {children}
+    </Tag>
+  );
+};
+
 function Footer() {
   return (
     <fotter className="relative z-10 text-white bg-footer">
-      <div className="container-wrapper pt-20 pb-10">
-        <main className="flex items-stretch space-x-24 mb-20">
-          <div className="flex space-x-10 flex-1">
+      <div className="container-wrapper pt-10 md:pt-14 xl:pt-20 pb-8 xl:pb-10">
+        <main className="flex flex-col md:flex-row items-stretch space-y-8 md:space-y-0 md:space-x-12 lg:space-x-24 mb-16 lg:mb-20">
+          <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 lg:space-x-10 flex-1">
             <div>
               <img
                 src="images/cropped-logo.png"
-                className="min-w-[80px]"
+                className="max-w-[80px] md:max-w-[50px] lg:max-w-[60px] xl:max-w-[80px]"
                 alt=""
               />
             </div>
             <div>
-              <div className="mb-5">
-                <h1 className="font-marsmelloe text-primary text-4xl uppercase">
-                  ABOUT FLOOFER
-                </h1>
+              <div className="mb-4 lg:mb-5">
+                <Title>ABOUT FLOOFER</Title>
               </div>
 
-              <p className="font-marsmelloe text-xl font-normal text-text-light">
+              <Text className="lh-1_7">
                 We are encouraging new talented people to join our community, as
                 this is the most important driving force behind Floofer’s
                 success. Being in the crypto space is exciting, and there is a
                 lot of potential here.
-              </p>
+              </Text>
             </div>
           </div>
 
-          <div className="w-[4px] bg-white border-2"></div>
+          <div className="bg-white border-1 xl:border-2"></div>
 
-          <div className="flex-1">
-            <div className="mb-5">
-              <h1 className="font-marsmelloe text-primary text-4xl uppercase">
-                LINKS
-              </h1>
+          <div className="lg:flex-1">
+            <div className="mb-4 lg:mb-5">
+              <Title>LINKS</Title>
             </div>
 
-            <div className="flex space-x-20">
+            <div className="flex space-x-12 lg:space-x-20">
               <div className="space-y-3">
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                <Text Tag="a" href="/" className="block w-fit">
                   HOME
-                </a>
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   PRESALE
-                </a>
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   HOW TO BUY
-                </a>
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   ROADMAP
-                </a>
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   FEATURES
-                </a>
+                </Text>
               </div>
               <div className="space-y-3">
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                <Text Tag="a" href="/" className="block w-fit">
                   FLOOFYNOMICS
-                </a>
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   TEAM
-                </a>
-
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   COMMUNITY
-                </a>
-
-                <a
-                  href="/"
-                  className="text-text-light font-marsmelloe text-xl block w-fit"
-                >
+                </Text>
+                <Text Tag="a" href="/" className="block w-fit">
                   WHITEPAPER
-                </a>
+                </Text>
               </div>
             </div>
           </div>
         </main>
 
         <div className="pt-6 border-t-2 border-[rgba(255,255,255,.6)]">
-          <p className="text-center text-text-light text-xl font-semibold opacity-60">
+          <p className="text-center text-text-light text-sm md:text-base xl:text-xl font-semibold opacity-60">
             © Copyright 2023 floofer. All rights reserved.
           </p>
         </div>
