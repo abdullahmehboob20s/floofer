@@ -12,9 +12,9 @@ const featuredImgs = [
 
 function Featured() {
   return (
-    <div className="pt-24 md:pt-28 pb-12 lg:pb-14 xl:pb-20 relative z-10">
+    <div className="pt-24 md:pt-36 pb-12 lg:pb-14 xl:pb-20 relative z-10">
       <div className="container-wrapper">
-        <h1 className="text-center font-huglove text-3xl lg:text-4xl xl:text-6xl text-shadow-black-sharp text-[#D8FAFF] mb-10 xl:mb-14">
+        <h1 className="text-center font-huglove text-3xl lg:text-5xl text-shadow-black-sharp text-[#D8FAFF] mb-10 xl:mb-14">
           FEATURED IN
         </h1>
 

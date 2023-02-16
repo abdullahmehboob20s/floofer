@@ -10,11 +10,11 @@ function Products() {
       }}
     >
       <div className="container-wrapper">
-        <h1 className="text-center font-huglove text-4xl xl:text-6xl mb-10 sm:mb-16 xl:mb-20">
+        <h1 className="text-center font-huglove text-4xl xl:text-5xl mb-10 sm:mb-16 xl:mb-20">
           PRoDUCTS
         </h1>
 
-        <div className="grid lg:grid-cols-2 gap-x-12 xl:gap-x-16 gap-y-10 xl:gap-y-14">
+        <div className="grid lg:grid-cols-2 gap-x-12 gap-y-10">
           <ProductCard
             title="The Love NFT"
             img="images/love-nft.png"

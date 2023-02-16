@@ -3,7 +3,7 @@ import React from "react";
 const Title = ({ children, className }) => {
   return (
     <h1
-      className={`font-marsmelloe text-primary text-xl lg:text-2xl xl:text-4xl uppercase ${className}`}
+      className={`font-marsmelloe text-primary text-xl lg:text-2xl uppercase ${className}`}
     >
       {children}
     </h1>
@@ -13,7 +13,7 @@ const Title = ({ children, className }) => {
 const Text = ({ Tag = "p", children, className, ...props }) => {
   return (
     <Tag
-      className={`font-marsmelloe text-sm lg:text-base xl:text-xl font-normal text-text-light ${className}`}
+      className={`font-marsmelloe text-sm lg:text-base font-normal text-text-light ${className}`}
       {...props}
     >
       {children}
@@ -24,13 +24,13 @@ const Text = ({ Tag = "p", children, className, ...props }) => {
 function Footer() {
   return (
     <fotter className="relative z-10 text-white bg-footer">
-      <div className="container-wrapper pt-10 md:pt-14 xl:pt-20 pb-8 xl:pb-10">
+      <div className="container-wrapper pt-10 md:pt-14 pb-8">
         <main className="flex flex-col md:flex-row items-stretch space-y-8 md:space-y-0 md:space-x-12 lg:space-x-24 mb-16 lg:mb-20">
           <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 lg:space-x-10 flex-1">
             <div>
               <img
                 src="images/cropped-logo.png"
-                className="max-w-[80px] md:max-w-[50px] lg:max-w-[60px] xl:max-w-[80px]"
+                className="max-w-[80px] md:max-w-[50px] lg:max-w-[60px]"
                 alt=""
               />
             </div>
@@ -48,7 +48,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="bg-white border-1 xl:border-2"></div>
+          <div className="bg-white border-1"></div>
 
           <div className="lg:flex-1">
             <div className="mb-4 lg:mb-5">
@@ -92,7 +92,7 @@ function Footer() {
         </main>
 
         <div className="pt-6 border-t-2 border-[rgba(255,255,255,.6)]">
-          <p className="text-center text-text-light text-sm md:text-base xl:text-xl font-semibold opacity-60">
+          <p className="text-center text-text-light text-sm md:text-base font-semibold opacity-60">
             © Copyright 2023 floofer. All rights reserved.
           </p>
         </div>

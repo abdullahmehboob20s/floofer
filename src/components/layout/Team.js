@@ -5,7 +5,7 @@ function Team() {
   return (
     <div className="py-12 lg:py-16 xl:py-20 bg-primary relative z-10">
       <div className="container-wrapper">
-        <h1 className="text-center font-huglove text-3xl sm:text-4xl xl:text-5xl font-semibold mb-12 lg:mb-16 xl:mb-20 titles-shadow">
+        <h1 className="text-center font-huglove text-3xl sm:text-4xl font-semibold mb-12 lg:mb-16 titles-shadow">
           FLooFER TEAM
         </h1>
 

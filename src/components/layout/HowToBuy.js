@@ -6,7 +6,7 @@ function HowToBuy() {
   return (
     <div className="py-14 lg:py-20 bg-white z-10 relative">
       <div className="container-wrapper">
-        <h1 className="text-center font-marsmelloe text-3xl lg:text-4xl xl:text-5xl mb-14 lg:mb-20">
+        <h1 className="text-center font-marsmelloe text-3xl lg:text-4xl mb-14 lg:mb-20">
           HOW TO BUY
         </h1>
 
@@ -21,7 +21,7 @@ function HowToBuy() {
             <div className="flex justify-center row-start-1 row-end-2 lg:row-start-auto lg:row-end-auto">
               <img
                 src="images/wallets.svg"
-                className="max-w-[100px] sm:max-w-[200px] xl:max-w-[300px] w-full"
+                className="max-w-[100px] sm:max-w-[200px] w-full"
                 alt=""
               />
             </div>
@@ -40,7 +40,7 @@ function HowToBuy() {
             <div className="flex justify-center row-start-1 row-end-2 lg:row-start-auto lg:row-end-auto">
               <img
                 src="images/dog-circle.png"
-                className="max-w-[100px] sm:max-w-[170px] xl:max-w-[242px] w-full"
+                className="max-w-[100px] sm:max-w-[170px] w-full"
                 alt=""
               />
             </div>

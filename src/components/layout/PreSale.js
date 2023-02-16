@@ -47,7 +47,7 @@ function PreSale() {
                 />
               </div>
 
-              <p className="text-white font-marsmelloe text-base xl:text-2xl text-shadow-black">
+              <p className="text-white font-marsmelloe text-base xl:text-lg text-shadow-black">
                 Be among the first to own Floofer tokens and get access to
                 exclusive perks and discounts.
               </p>
