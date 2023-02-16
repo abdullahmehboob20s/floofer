@@ -8,13 +8,14 @@ import Tokenomics from "components/layout/Tokenomics";
 import Whitepaper from "components/layout/Whitepaper";
 import Products from "components/layout/Products";
 import PreSale from "components/layout/PreSale";
-import Featured from "components/layout/Featured";
+import NFTBar from "components/layout/NFTBar";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <NFTBar />
       <PreSale />
       <Products />
       <Whitepaper />

@@ -52,7 +52,7 @@
 
   body,
   html {
-    @apply bg-primary;
+    @apply bg-primary overflow-x-hidden;
   }
 }
 
