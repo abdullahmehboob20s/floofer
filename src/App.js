@@ -18,8 +18,8 @@ function App() {
       <NFTBar />
       <PreSale />
       <Products />
-      {/* <Whitepaper />
-      <Tokenomics />
+      <Whitepaper />
+      {/* <Tokenomics />
       <HowToBuy />
       <Team />
       <Footer /> */}
