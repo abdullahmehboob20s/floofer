@@ -5,7 +5,7 @@ import Featured from "./Featured";
 const Card = ({ title, subtitle, className }) => {
   return (
     <div
-      className={`bg-white border-4 border-black rounded-md py-3 px-5 text-center ${className}`}
+      className={`bg-white border-4 border-black rounded-md py-3 px-4 text-center ${className}`}
     >
       <p className="text-center text-sm lg:text-base font-bold font-poppins mb-1">
         {title}

@@ -17,8 +17,8 @@ function NFTBar() {
       <div className="text-white py-4 xl:py-6 flex items-center relative z-[200]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-full -z-10 border-b-[6px] border-white bg-header"></div>
 
-        <div className="container-wrapper">
-          <main className="flex items-center justify-center flex-wrap -mx-4 -my-2">
+        <div className="w-full px-10">
+          <main className="flex items-center justify-between flex-wrap -mx-4 -my-2">
             {texts.map((item, i) => (
               <>
                 <Separator>

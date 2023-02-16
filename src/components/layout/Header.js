@@ -14,7 +14,7 @@ function Header() {
         <div className="flex items-center space-x-3 sm:space-x-4">
           <img
             src="images/cropped-logo.png"
-            className="w-[50px] sm:w-[60px] lg:w-[70px] xl:w-[90px] logo-shadow relative top-2 lg:top-3"
+            className="w-[50px] sm:w-[60px] lg:w-[70px] xl:w-[80px] logo-shadow relative top-2 lg:top-3"
             alt=""
           />
           <p className="text-xl sm:text-2xl xl:text-3xl font-huglove text-white">
@@ -56,11 +56,11 @@ function Header() {
             </button>
           </div>
 
-          <p className="font-marsmelloe text-sm xl:text-lg">Home</p>
-          <p className="font-marsmelloe text-sm xl:text-lg">Roadmap</p>
-          <p className="font-marsmelloe text-sm xl:text-lg">Whitepaper</p>
-          <p className="font-marsmelloe text-sm xl:text-lg">Community</p>
-          <p className="font-marsmelloe text-sm xl:text-lg">Telegram</p>
+          <p className="font-marsmelloe text-sm xl:text-base">Home</p>
+          <p className="font-marsmelloe text-sm xl:text-base">Roadmap</p>
+          <p className="font-marsmelloe text-sm xl:text-base">Whitepaper</p>
+          <p className="font-marsmelloe text-sm xl:text-base">Community</p>
+          <p className="font-marsmelloe text-sm xl:text-base">Telegram</p>
 
           <div className="py-3 lg:p-0">
             <div className="divider-vertical hidden lg:block h-[28px] border-purple-1"></div>
@@ -73,10 +73,12 @@ function Header() {
             className="flex items-center space-x-2 xl:space-x-3"
           >
             <FaTwitter className="text-twitter text-base xl:text-2xl" />{" "}
-            <span className="font-marsmelloe text-sm xl:text-lg">Twitter</span>
+            <span className="font-marsmelloe text-sm xl:text-base">
+              Twitter
+            </span>
           </a>
 
-          <p className="font-marsmelloe text-sm xl:text-lg">buy now</p>
+          <p className="font-marsmelloe text-sm xl:text-base">buy now</p>
         </div>
 
         <div

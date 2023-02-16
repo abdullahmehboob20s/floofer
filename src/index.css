@@ -58,7 +58,7 @@
 
 @layer components {
   .container-wrapper {
-    @apply w-[90%] max-w-[1440px] mx-auto;
+    @apply w-[90%] max-w-[1050px] mx-auto;
   }
 
   .divider-vertical {
