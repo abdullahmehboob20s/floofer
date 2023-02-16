@@ -7,12 +7,14 @@ import Footer from "components/layout/Footer";
 import Tokenomics from "components/layout/Tokenomics";
 import Whitepaper from "components/layout/Whitepaper";
 import Products from "components/layout/Products";
+import PreSale from "components/layout/PreSale";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <PreSale />
       <Products />
       <Whitepaper />
       <Tokenomics />
