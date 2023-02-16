@@ -9,6 +9,8 @@ import Whitepaper from "components/layout/Whitepaper";
 import Products from "components/layout/Products";
 import PreSale from "components/layout/PreSale";
 import NFTBar from "components/layout/NFTBar";
+import Roadmap from "components/layout/Roadmap";
+import Stripe from "components/UI/Stripe";
 
 function App() {
   return (
@@ -18,7 +20,11 @@ function App() {
       <NFTBar />
       <PreSale />
       <Products />
+      <Stripe />
       <Whitepaper />
+      <Stripe borderBottom={true} />
+      <Roadmap />
+      <Stripe borderBottom={true} />
       <Tokenomics />
       <HowToBuy />
       <Team />

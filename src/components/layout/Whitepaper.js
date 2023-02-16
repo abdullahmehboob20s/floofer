@@ -3,9 +3,7 @@ import React from "react";
 function Whitepaper() {
   return (
     <>
-      <div className="h-[20px] bg-black"></div>
-
-      <div className="py-12 md:py-16 xl:py-20 bg-blue-sky border-t-8 border-b-8 border-white">
+      <div className="py-12 md:py-16 xl:py-20 bg-blue-sky">
         <div className="container-wrapper grid items-center lg:grid-cols-2 gap-10 lg:gap-20">
           <main className="bg-button p-[6px] md:p-[8px] rounded-[40px]">
             <div className="rounded-[40px] bg-[rgba(255,255,255,0.8)] py-10 xl:py-14 px-10 xl:px-16">
@@ -34,8 +32,6 @@ function Whitepaper() {
           </div>
         </div>
       </div>
-
-      <div className="h-[20px] bg-black"></div>
     </>
   );
 }

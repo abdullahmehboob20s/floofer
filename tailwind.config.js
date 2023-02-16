@@ -50,6 +50,7 @@ module.exports = {
           "linear-gradient(175.24deg, #FFC700 0.69%, #E78134 80.07%, #E78134 86.14%)",
         "connect-wallet":
           " linear-gradient(180deg, #FFE600 1.39%, #FFEE81 9.72%, #FFDC00 14.93%, #FFB500 85.76%, #FFE66C 100%)",
+        stripe: " linear-gradient(180deg, #000000 0%, #3B3B3B 100%)",
       },
       borderWidth: {
         1: "1px",
@@ -62,6 +63,7 @@ module.exports = {
         "team-card": "inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
         presale: " inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
         "connect-wallet": " inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
+        stripe: " 4px 8px 1px #FFFFFF, 0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
     },
   },
