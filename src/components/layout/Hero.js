@@ -4,18 +4,18 @@ import React from "react";
 function Hero() {
   // min-h-[calc(100vh-var(--header-height))]
   return (
-    <div className="overflow-hidden py-24 bg-primary-2 flex items-center relative z-50">
-      <div className="container-wrapper">
-        <div className="mb-4">
-          <h1 className="font-huglove text-[128px] leading-[1] text-brown titles-shadow">
+    <div className="overflow-hidden py-10 md:py-12 lg:py-16 xl:py-24 bg-primary-2 flex flex-col items-center relative z-50">
+      <div className="container-wrapper text-center lg:text-left">
+        <div className="mb-5 md:mb-6 lg:mb-4">
+          <h1 className="font-huglove mb-3 lg:mb-0 text-5xl md:text-6xl lg:text-8xl xl:text-9xl leading-[1] text-brown titles-shadow">
             FLooFER
           </h1>
-          <p className="font-huglove text-[40px] titles-shadow">
+          <p className="font-huglove text-2xl md:text-3xl lg:text-4xl xl:text-[40px] titles-shadow">
             tag line will come here
           </p>
         </div>
 
-        <p className="font-semibold w-[50%] text-blue-text text-xl lh-1_6 mb-10">
+        <p className="font-semibold text-center lg:text-left lg:w-[50%] text-blue-text text-sm sm:text-base xl:text-xl lh-1_6 mb-8 md:mb-10">
           Floofer is a cryptocurrency which allows all dog lovers to swipe right
           on their Floof’s potential love and gain utilitarian benefits in the
           real world.{" "}
@@ -24,21 +24,21 @@ function Hero() {
           </a>
         </p>
 
-        <div className="flex items-center space-x-4">
-          <Button>Join Community</Button>
-          <Button>Get your Floofer </Button>
+        <div className="flex items-center flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
+          <Button className="w-full sm:w-auto">Join Community</Button>
+          <Button className="w-full sm:w-auto">Get your Floofer </Button>
         </div>
       </div>
 
       <img
         src="images/hero-blob.png"
-        className="absolute top-0 right-[0%] h-[120%] w-[44%] -z-10 pointer-events-none select-none"
+        className="absolute top-[20%] lg:top-0 right-[0%] h-[100%] lg:h-[120%] w-[100%] lg:w-[44%] -z-10 pointer-events-none select-none block"
         alt=""
       />
 
       <img
         src="images/hero-dog.svg"
-        className="w-[44%] absolute top-1/2 right-4 -translate-y-1/2 z-[-1] pointer-events-none select-none"
+        className="w-[96%] sm:w-[80%] max-w-[600px] lg:max-w-none mx-auto lg:w-[44%] lg:absolute lg:top-1/2 right-4 lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16"
         alt=""
       />
 

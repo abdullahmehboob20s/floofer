@@ -14,9 +14,8 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="h-[100px]"></div>
-      {/* <Hero />
-      <NFTBar />
+      <Hero />
+      {/* <NFTBar />
       <PreSale />
       <Products />
       <Whitepaper />
