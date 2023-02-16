@@ -56,11 +56,11 @@ function Header() {
             </button>
           </div>
 
-          <p className="font-marsmelloe text-sm xl:text-xl">Home</p>
-          <p className="font-marsmelloe text-sm xl:text-xl">Roadmap</p>
-          <p className="font-marsmelloe text-sm xl:text-xl">Whitepaper</p>
-          <p className="font-marsmelloe text-sm xl:text-xl">Community</p>
-          <p className="font-marsmelloe text-sm xl:text-xl">Telegram</p>
+          <p className="font-marsmelloe text-sm xl:text-lg">Home</p>
+          <p className="font-marsmelloe text-sm xl:text-lg">Roadmap</p>
+          <p className="font-marsmelloe text-sm xl:text-lg">Whitepaper</p>
+          <p className="font-marsmelloe text-sm xl:text-lg">Community</p>
+          <p className="font-marsmelloe text-sm xl:text-lg">Telegram</p>
 
           <div className="py-3 lg:p-0">
             <div className="divider-vertical hidden lg:block h-[28px] border-purple-1"></div>
@@ -73,10 +73,10 @@ function Header() {
             className="flex items-center space-x-2 xl:space-x-3"
           >
             <FaTwitter className="text-twitter text-base xl:text-2xl" />{" "}
-            <span className="font-marsmelloe text-sm xl:text-xl">Twitter</span>
+            <span className="font-marsmelloe text-sm xl:text-lg">Twitter</span>
           </a>
 
-          <p className="font-marsmelloe text-sm xl:text-xl">buy now</p>
+          <p className="font-marsmelloe text-sm xl:text-lg">buy now</p>
         </div>
 
         <div

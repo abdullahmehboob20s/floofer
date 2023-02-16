@@ -4,10 +4,10 @@ import React from "react";
 function Hero() {
   // min-h-[calc(100vh-var(--header-height))]
   return (
-    <div className="overflow-hidden pt-10 md:pt-12 lg:pt-16 xl:pt-24 pb-24 lg:pb-44 bg-primary-2 flex flex-col items-center relative z-50">
+    <div className="overflow-hidden pt-10 md:pt-12 lg:pt-16 xl:pt-24 pb-24 lg:pb-56 bg-primary-2 flex flex-col items-center relative z-50">
       <div className="container-wrapper text-center lg:text-left">
         <div className="mb-5 md:mb-6 lg:mb-4">
-          <h1 className="font-huglove mb-3 lg:mb-0 text-5xl md:text-6xl lg:text-8xl xl:text-9xl leading-[1] text-brown titles-shadow">
+          <h1 className="font-huglove mb-3 lg:mb-2 text-5xl md:text-6xl lg:text-8xl xl:text-9xl leading-[1] text-brown titles-shadow">
             FLooFER
           </h1>
           <p className="font-huglove text-2xl md:text-3xl lg:text-4xl xl:text-[40px] titles-shadow">
@@ -38,7 +38,7 @@ function Hero() {
 
       <img
         src="images/hero-dog.svg"
-        className="w-[96%] sm:w-[80%] max-w-[600px] lg:max-w-none mx-auto lg:w-[44%] lg:absolute lg:top-1/2 right-4 lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16 lg:mt-0"
+        className="w-[96%] sm:w-[80%] max-w-[600px] lg:max-w-none mx-auto lg:w-[44%] lg:absolute lg:top-[43%] right-4 lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16 lg:mt-0"
         alt=""
       />
 
