@@ -12,9 +12,9 @@ const featuredImgs = [
 
 function Featured() {
   return (
-    <div className="py-20 relative z-10">
+    <div className="py-12 lg:py-14 xl:py-20 relative z-10">
       <div className="container-wrapper">
-        <h1 className="text-center font-huglove text-6xl text-shadow-black-sharp text-[#D8FAFF] mb-14">
+        <h1 className="text-center font-huglove text-3xl lg:text-4xl xl:text-6xl text-shadow-black-sharp text-[#D8FAFF] mb-10 xl:mb-14">
           FEATURED IN
         </h1>
 
@@ -24,7 +24,7 @@ function Featured() {
               src={item.img}
               key={i}
               alt=""
-              className="border-2 border-transparent mx-3 my-3 h-[60px]"
+              className="border-2 border-transparent mx-3 my-3 h-[30px] lg:h-[40px] xl:h-[60px]"
             />
           ))}
         </div>
