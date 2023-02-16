@@ -14,7 +14,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Hero />
+      <div className="h-[100px]"></div>
+      {/* <Hero />
       <NFTBar />
       <PreSale />
       <Products />
@@ -22,7 +23,7 @@ function App() {
       <Tokenomics />
       <HowToBuy />
       <Team />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
