@@ -2,8 +2,9 @@ import Button from "components/UI/Button";
 import React from "react";
 
 function Hero() {
+  // min-h-[calc(100vh-var(--header-height))]
   return (
-    <div className="overflow-hidden min-h-[calc(100vh-var(--header-height))] bg-primary-2 flex items-center relative z-50">
+    <div className="overflow-hidden py-24 bg-primary-2 flex items-center relative z-50">
       <div className="container-wrapper">
         <div className="mb-4">
           <h1 className="font-huglove text-[128px] leading-[1] text-brown titles-shadow">

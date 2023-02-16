@@ -8,6 +8,7 @@ import Tokenomics from "components/layout/Tokenomics";
 import Whitepaper from "components/layout/Whitepaper";
 import Products from "components/layout/Products";
 import PreSale from "components/layout/PreSale";
+import Featured from "components/layout/Featured";
 
 function App() {
   return (
