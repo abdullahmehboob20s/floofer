@@ -19,8 +19,8 @@ function App() {
       <PreSale />
       <Products />
       <Whitepaper />
-      {/* <Tokenomics />
-      <HowToBuy />
+      <Tokenomics />
+      {/* <HowToBuy />
       <Team />
       <Footer /> */}
     </div>
