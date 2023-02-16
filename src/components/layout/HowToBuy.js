@@ -4,43 +4,43 @@ import React from "react";
 
 function HowToBuy() {
   return (
-    <div className="py-20 bg-white z-10 relative">
+    <div className="py-14 lg:py-20 bg-white z-10 relative">
       <div className="container-wrapper">
-        <h1 className="text-center font-marsmelloe text-5xl mb-20">
+        <h1 className="text-center font-marsmelloe text-3xl lg:text-4xl xl:text-5xl mb-14 lg:mb-20">
           HOW TO BUY
         </h1>
 
         <div className="space-y-16">
-          <HowToBuySideBySideSection>
+          <HowToBuySideBySideSection className="gap-10 lg:gap-0">
             <HowToBuyCard
               desc="First you need to set up a wallet - if you’re on desktop then we
           recommend Metamask, with Trust Wallet being the recommended wallet for
           mobile users."
             />
 
-            <div className="flex justify-center">
+            <div className="flex justify-center row-start-1 row-end-2 lg:row-start-auto lg:row-end-auto">
               <img
                 src="images/wallets.svg"
-                className="max-w-[300px] w-full"
+                className="max-w-[100px] sm:max-w-[200px] xl:max-w-[300px] w-full"
                 alt=""
               />
             </div>
           </HowToBuySideBySideSection>
 
-          <HowToBuySideBySideSection>
+          <HowToBuySideBySideSection className="gap-10 lg:gap-0">
             <div></div>
             <HowToBuyCard
               desc={`You can buy $floofer using ETH on Etherium Chain. Once you've connected your wallet, hit "Buy with ETH" and specify how many $Floofer you would like to purchase. Tokens can be claimed after presale ends.`}
             />
           </HowToBuySideBySideSection>
 
-          <HowToBuySideBySideSection>
+          <HowToBuySideBySideSection className="gap-10 lg:gap-0">
             <HowToBuyCard desc='You can also buy $floofer using USDT on Etherium Chain. Simply connect your wallet, hit "Buy with USDT" and specify how many $floofer to purchase. Make sure you have enough ETH in your wallet to cover gas fees. Tokens can be claimed after presale ends.' />
 
-            <div className="flex justify-center">
+            <div className="flex justify-center row-start-1 row-end-2 lg:row-start-auto lg:row-end-auto">
               <img
                 src="images/dog-circle.png"
-                className="max-w-[242px] w-full"
+                className="max-w-[100px] sm:max-w-[170px] xl:max-w-[242px] w-full"
                 alt=""
               />
             </div>

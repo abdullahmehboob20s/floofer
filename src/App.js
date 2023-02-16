@@ -20,8 +20,8 @@ function App() {
       <Products />
       <Whitepaper />
       <Tokenomics />
-      {/* <HowToBuy />
-      <Team />
+      <HowToBuy />
+      {/* <Team />
       <Footer /> */}
     </div>
   );
