@@ -31,14 +31,14 @@ function Hero() {
 
         <img
           src="images/hero-dog.svg"
-          className="w-[96%] sm:w-[80%] max-w-[700px] lg:max-w-[700px] mx-auto lg:w-[44%] lg:absolute lg:top-[50%] right-0 lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16 lg:mt-0"
+          className="w-[96%] sm:w-[80%] lg:w-[45%] max-w-[700px] lg:max-w-[700px] mx-auto lg:absolute lg:top-[69%] right-[-5%] lg:-translate-y-1/2 z-[-1] pointer-events-none select-none mt-16 lg:mt-0"
           alt=""
         />
       </div>
 
       <img
         src="images/hero-blob.png"
-        className="absolute top-[20%] lg:top-0 right-[0%] h-[100%] lg:h-[120%] w-[100%] lg:w-[44%] -z-10 pointer-events-none select-none block"
+        className="absolute top-[20%] lg:top-0 right-[0%] h-[100%] lg:h-[100%] w-[100%] lg:w-[48%] -z-10 pointer-events-none select-none block"
         alt=""
       />
 
