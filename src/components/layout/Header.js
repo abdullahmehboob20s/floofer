@@ -56,11 +56,36 @@ function Header() {
             </button>
           </div>
 
-          <p className="font-marsmelloe text-sm xl:text-base">Home</p>
-          <p className="font-marsmelloe text-sm xl:text-base">Roadmap</p>
-          <p className="font-marsmelloe text-sm xl:text-base">Whitepaper</p>
-          <p className="font-marsmelloe text-sm xl:text-base">Community</p>
-          <p className="font-marsmelloe text-sm xl:text-base">Telegram</p>
+          <a
+            href="/"
+            className="font-marsmelloe text-sm xl:text-base block w-fit"
+          >
+            Home
+          </a>
+          <a
+            href="/"
+            className="font-marsmelloe text-sm xl:text-base block w-fit"
+          >
+            Roadmap
+          </a>
+          <a
+            href="/"
+            className="font-marsmelloe text-sm xl:text-base block w-fit"
+          >
+            Whitepaper
+          </a>
+          <a
+            href="/"
+            className="font-marsmelloe text-sm xl:text-base block w-fit"
+          >
+            Community
+          </a>
+          <a
+            href="/"
+            className="font-marsmelloe text-sm xl:text-base block w-fit"
+          >
+            Telegram
+          </a>
 
           <div className="py-3 lg:p-0">
             <div className="divider-vertical hidden lg:block h-[28px] border-purple-1"></div>
@@ -78,7 +103,9 @@ function Header() {
             </span>
           </a>
 
-          <p className="font-marsmelloe text-sm xl:text-base">buy now</p>
+          <button className="font-marsmelloe text-sm xl:text-base block w-fit">
+            buy now
+          </button>
         </div>
 
         <div
