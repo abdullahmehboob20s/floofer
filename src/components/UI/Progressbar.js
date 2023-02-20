@@ -8,8 +8,8 @@ function Progressbar({ progress }) {
         style={{ width: `${progress}%` }}
       >
         <img
-          src="images/progress-dog.png"
-          className="w-[50px] absolute bottom-0 -right-[23px] dog-shadow"
+          src="images/progress-dog.gif"
+          className="w-[5rem] absolute bottom-[-150%] -right-[30px] dog-shadow"
           alt=""
         />
       </div>
