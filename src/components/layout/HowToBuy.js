@@ -1,3 +1,4 @@
+import BitcoinWalletAnimation from "components/UI/BitcoinWalletAnimation";
 import HowToBuyCard from "components/UI/HowToBuyCard";
 import HowToBuySideBySideSection from "components/UI/HowToBuySideBySideSection";
 import React from "react";
@@ -6,12 +7,12 @@ function HowToBuy() {
   return (
     <div className="py-14 lg:py-20 bg-white z-10 relative">
       <div className="container-wrapper">
-        <h1 className="text-center font-marsmelloe text-3xl lg:text-4xl mb-14 lg:mb-20">
+        <h1 className="text-center font-marsmelloe text-3xl lg:text-4xl mb-12 lg:mb-20">
           HOW TO BUY
         </h1>
 
         <div className="space-y-16">
-          <HowToBuySideBySideSection className="gap-10 lg:gap-0">
+          <HowToBuySideBySideSection className="gap-6 lg:gap-0">
             <HowToBuyCard
               desc="First you need to set up a wallet - if you’re on desktop then we
           recommend Metamask, with Trust Wallet being the recommended wallet for
@@ -19,11 +20,7 @@ function HowToBuy() {
             />
 
             <div className="flex justify-center row-start-1 row-end-2 lg:row-start-auto lg:row-end-auto">
-              <img
-                src="images/wallets.svg"
-                className="max-w-[100px] sm:max-w-[200px] w-full"
-                alt=""
-              />
+              <BitcoinWalletAnimation className="w-full max-w-[160px] sm:max-w-[230px]" />
             </div>
           </HowToBuySideBySideSection>
 
