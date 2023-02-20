@@ -27,13 +27,13 @@ function PreSale() {
     >
       <Featured />
 
-      <div className="pb-36 lg:pb-48 pt-8 lg:pt-16 xl:pt-24">
+      <div className="pb-36 lg:pb-48 pt-2 lg:pt-16 xl:pt-24">
         <div className="container-wrapper">
           <main className="grid lg:grid-cols-2 items-center gap-12 sm:gap-16 lg:gap-20">
             <div>
               <img
-                src="images/rocket.png"
-                className="w-[100%] max-w-[200px] lg:max-w-none lg:w-[40%] xl:w-1/2 mx-auto"
+                src="images/rocket-launching.gif"
+                className="w-[100%] max-w-[250px] mb-5 lg:mb-4 lg:max-w-none lg:w-[40%] xl:w-[60%] mx-auto"
                 alt=""
               />
 
