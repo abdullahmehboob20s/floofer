@@ -23,7 +23,7 @@ const Text = ({ Tag = "p", children, className, ...props }) => {
 
 function Footer() {
   return (
-    <fotter className="relative z-10 text-white bg-footer">
+    <footer className="relative z-10 text-white bg-footer">
       <div className="container-wrapper pt-10 md:pt-14 pb-8">
         <main className="flex flex-col md:flex-row items-stretch space-y-8 md:space-y-0 md:space-x-12 lg:space-x-24 mb-16 lg:mb-20">
           <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 lg:space-x-10 flex-1">
@@ -105,7 +105,7 @@ function Footer() {
         className="absolute top-0 left-0 w-full h-full object-cover -z-20"
         alt=""
       />
-    </fotter>
+    </footer>
   );
 }
 
